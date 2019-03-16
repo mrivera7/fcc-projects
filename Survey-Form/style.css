@@ -1,0 +1,50 @@
+article{
+    text-align: center;
+  }
+  form{
+    background-color: whitesmoke;
+    border-style: outset;
+    padding: .75em;
+    margin: auto;
+  }
+  .row{
+    width: 100%;
+  }
+  .right-col, .left-col, input, .left-col-sel, .right-col-sel{
+    display: inline-block;
+  }
+  .cluster{
+      width: 100%;
+    }
+  
+  textarea{
+    width: 100%;
+  }
+  .left-col-sel, .right-col-sel{
+    width: 49%;
+  }
+  @media screen and (min-width: 600px){
+    form{
+      max-width: 600px;
+    }
+    .left-col{
+      width: 20%;
+    }
+    .right-col{
+      width: 75%;
+    }
+    .npt{
+      width: 100%;
+    }
+  }
+    
+  @media screen and (max-width: 600px){
+    .right-col, .left-col, .npt{
+      width: 100%;
+    }
+    .row{
+      text-align: left;
+    }
+    
+  }
+  
